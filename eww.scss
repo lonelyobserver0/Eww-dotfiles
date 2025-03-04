@@ -1,0 +1,25 @@
+.bar {
+  background-color: rgba(0, 0, 0, 0.5); /* Sfondo semitrasparente */
+  padding: 5px;
+  border-radius: 10px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.workspaces {
+  margin-left: 10px;
+}
+
+.clock {
+  text-align: center;
+  font-weight: bold;
+}
+
+.battery {
+  margin-right: 10px;
+}
+
+.battery[low] {
+  color: #ff5555; /* Rosso quando la batteria è bassa */
+}
